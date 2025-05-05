@@ -1,0 +1,105 @@
+/* General Layout */
+.App {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  background-color: #f7fafc;
+  min-height: 100vh;
+}
+
+/* Header Section */
+.App-header {
+  background-color: #1a202c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+/* Logo Animation */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Link Styling */
+.App-link {
+  color: #38a169;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.App-link:hover {
+  color: #2f855a;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #38a169;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2f855a;
+}
+
+/* Form Elements */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 14px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #cbd5e0;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #38a169;
+  outline: none;
+  box-shadow: 0 0 0 1px #38a169;
+}
+
+/* Utility Spacing */
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
