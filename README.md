@@ -76,8 +76,8 @@ The Carbon Credit Management System leverages blockchain technology to provide a
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/carbon-credit-management.git
-cd carbon-credit-management
+git clone https://github.com/Sathvika1902/CarbonCredit.git
+cd CarbonCredit
 ```
 
 ### **2. Install Dependencies**
