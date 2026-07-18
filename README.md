@@ -179,13 +179,3 @@ We welcome contributions from the community! To contribute:
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-### **Contact**
-
-For any queries or support, please reach out to:
-
-- **Name**: Venkata Sylesh Kona
-- **Email**: konavenkatasylesh@example.com
-- **Website**: [www.carboncreditsystem.com](#)
-
----
